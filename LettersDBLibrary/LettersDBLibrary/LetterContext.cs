@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1
+namespace LettersDBLibrary
 {
     [DbConfigurationType(typeof(MySqlEFConfiguration))]
     public class LetterContext : DbContext
